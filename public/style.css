@@ -1,0 +1,115 @@
+:root {
+    --body-bg: rgb(243, 252, 249);
+    --form-bg: rgb(255, 255, 255);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: var(--body-bg)
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: calc(100vh - 40px);
+    width: 100vw;
+    background-color: var(--body-bg);
+}
+
+#form {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 400px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding: 20px;
+    border: 2px solid rgb(173, 187, 181);
+    border-radius: 20px;
+    background-color: var(--form-bg);
+    box-shadow: rgba(0, 0, 0, 0.801) 5px 5px 25px;
+}
+
+#h2 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+    font-size: 25px;
+    background-color: var(--body-bg);
+}
+
+#form label {
+    font-size: 16px;
+    text-align: center;
+    background-color: var(--form-bg);
+}
+
+#form input {
+    font-size: 15px;
+    margin: 5px;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+    outline: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: var(--form-bg);
+}
+
+#form input:focus {
+    border: 1px solid #31aa13;
+    outline: 1px solid #36aa13;
+}
+
+#checkbox {
+    font-size: 15px;
+    margin: 5px;
+    padding: 10px;
+    width: 80%;
+    border-radius: 20px;
+    background-color: var(--form-bg);
+}
+
+#form button {
+    font-size: 15px;
+    margin: 5px;
+    padding: 10px;
+    width: 87%;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#submit-btn {
+    background-color: #4CAF50;
+}
+
+#submit-btn:hover {
+    background-color: #46a049;
+}
+
+#reset-btn {
+    background-color: #f44336;
+}
+
+#reset-btn:hover {
+    background-color: #da190b;
+}
+
+#form-ref {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    font-size: 15px;
+    background-color: var(--form-bg);
+}
+
+#form-ref a {
+    background-color: var(--form-bg);
+    text-decoration: none;
+    color: #9baa13;
+}
